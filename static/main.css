@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#general{
+    margin: auto;
+    width: 960px;
+    height: 800px;
+    background-color: #8885ff;
+}
+div#contenido{
+    margin: auto;
+    width: 960px;
+    height: 100px;
+    background-color: #3e51ff;
+}
+
+div#informacion{
+    width: 960px;
+    height: 300px;
+    margin-top: 30px;
+    background-color: #b7bcff;
+}
+.titulo{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nombre{
+    padding-top: 30px;
+    color: blue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
