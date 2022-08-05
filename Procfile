@@ -1,1 +1,1 @@
-web:gunicorn danielsc_cicd.wsgi
+web: gunicorn danielsc_cicd.wsgi
