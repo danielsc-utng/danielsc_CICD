@@ -74,8 +74,12 @@ WSGI_APPLICATION = 'danielsc_cicd.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dfr3llrdmldkki',
+        'USER': 'hoorjjdvfazmvq',
+        'PASSWORD': '0a19ec5249c8af3da41116249c9959588b4effe6ebaf27347be24bb802820505',
+        'HOST': 'ec2-44-207-126-176.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
